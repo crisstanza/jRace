@@ -1,0 +1,21 @@
+table {
+	border-collapse: collapse;
+	border-top: 1px solid #BBBBBB;
+	border-left: 1px solid #BBBBBB;
+}
+
+tr td:first-child {
+	padding: 0 10px 0 10px;
+}
+
+tr td:last-child {
+	width: 768px;	
+}
+
+.float-left {
+	float: left;
+}
+
+.width-75 {
+	width: 75px;
+}
