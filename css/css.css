@@ -19,3 +19,7 @@ tr td:last-child {
 .width-75 {
 	width: 75px;
 }
+
+.color {
+	filter: hue-rotate(45deg);
+}
