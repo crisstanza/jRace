@@ -1,3 +1,8 @@
+.car {
+	position: relative;
+	left: 0;
+}
+
 table {
 	border-collapse: collapse;
 	border-top: 1px solid #BBBBBB;

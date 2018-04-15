@@ -1,3 +1,11 @@
+function $(id) {
+	if (id.startsWith('[')) {
+		return document.querySelector(id);
+	} else {
+		return document.getElementById(id);
+	}
+}
+
 function addClass(element, className) {
 	var classNames = element.getAttribute('class');
 	if (classNames) {
